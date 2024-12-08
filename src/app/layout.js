@@ -24,6 +24,9 @@ export default function RootLayout({ children }) {
             <Link href="/blogs" className="font-semibold hover:text-blue-600">
               Blogs
             </Link>
+            <Link href="/contact" className="font-semibold hover:text-blue-600">
+            Contact
+            </Link>
           </nav>
         </header>
 
