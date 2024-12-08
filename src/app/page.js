@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4">Welcome to Business Career Compass</h1>
         <p className="text-lg text-gray-600">
           We provide students with the guidance, resources, and insights they need
-          to navigate their careers and possibly break into finance. Our mission is to empower you to achieve professional 
+          to navigate their careers and break into finance. Our mission is to empower you to achieve  
           success through information from professionals already well established in the field.
         </p>
       </div>

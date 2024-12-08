@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 body {
-  @apply bg-white text-black;
+  background: linear-gradient(
+    270deg,
+    #a3cef1, 
+    #b9e3ff, 
+    #91b4d4, 
+    #a3cef1  
+  );
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+  color: #ffffff; 
+  font-family: sans-serif;
+  margin: 0;
 }
