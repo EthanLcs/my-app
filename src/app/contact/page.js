@@ -7,7 +7,7 @@ export default function ContactPage() {
         </p>
         <ul className="text-gray-600 space-y-4">
           <li>Email: <a href="mailto:businesscareercompass@gmail.com" className="text-blue-600 underline">businesscareercompass@gmail.com</a></li>
-          <li>Phone: 914-267-4707</li>
+          <li>Phone: </li>
         </ul>
       </div>
     );
